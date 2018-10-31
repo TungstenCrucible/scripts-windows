@@ -3,7 +3,7 @@
 #   * download cygwin: https://cygwin.com/setup-x86_64.exe
 #   * install it on both windows machines to C:\cygwin64
 #   * add cygwin to environment variables (especially for user used for DESTINATION)
-#       for example: test-user on destination machine needs to have in PATH following directory: C:\cygwin64
+#       for example: test-user on destination machine needs to have in PATH following directory: C:\cygwin64\bin
 #       otherwise rsync will complaing that there is no rsync on remote (DEST) machine
 
 SRC=${1:-"*"}
